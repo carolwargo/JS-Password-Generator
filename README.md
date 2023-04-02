@@ -9,4 +9,4 @@ The password may include lower-case, upper-case, numbers and special characters:
 When a User clicks the button to "generate a password" they are presented with a series of prompts for password criteria. The User selects character criteria and length of password between 8-10 characters. Input is validated when User answers each prompt. Then a password is created based on selected criteria and displayed in the text area, replacing "your secure password". 
 
 ## Screenshot
-https://github.com/carolwargo/JS-Password-Generator/raw/main/Full%20page%20screenshot.png
+https://github.com/carolwargo/JS-Password-Generator/blob/main/Full%20page%20screenshot.png
