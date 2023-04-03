@@ -19,7 +19,7 @@ This is a simple web app that generates random passwords, at the click of a butt
 ```
 # SCREENSHOT
 ```
-https://github.com/carolwargo/JS-Password-Generator/blob/f2052f50a08e5df7d41f1ef998caffb7ac869c03/Full%20page%20screenshot.png
+C:\Users\carol\OneDrive\Desktop\MY-PROJECTS\JS-Password-Generator\Full page screenshot.png
 
 ```
 ## USER STORY
