@@ -1,4 +1,4 @@
-# Randon Password Generator
+# Random Password Generator
 This is a simple web app that generates random passwords, at the click of a button- "generate password". The User will be given a series of prompts. When the input is validated, the Password is generated according to the User's selected criteria. Finally, the password is returned/displayed in the "generate password" box on screen. 
 ```
 ```
