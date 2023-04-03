@@ -11,7 +11,7 @@ This is a simple web app that generates random passwords, at the click of a butt
 ```
 ```
 # Features
--PROMPTS ask the User if they would like to include UPPERCASE, lowercase, special characters and numbers. As well as password length between 10-128 characters.
+-PROMPTS ask the User if they would like to include UPPERCASE, lowercase, special characters and numbers. As well as password length between 8-128 characters.
 
 -PASSWORD returned will display on screen, randomly generated with the answers the User provides. 
 ```
