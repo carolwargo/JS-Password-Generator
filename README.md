@@ -8,6 +8,8 @@ This is a simple web app that generates random passwords, at the click of a butt
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
 - [Authors](#authors)
+SCREENSH![Alt text](Full%20page%20screenshot.png)OT 
+
 ```
 ```
 # Features
