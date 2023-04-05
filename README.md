@@ -9,8 +9,7 @@ This is a simple web app that generates random passwords, at the click of a butt
 - [Getting Started](#getting-started)
 - [Authors](#authors)
 
-SCREENSHOT:
-[Alt text](Full%20page%20screenshot.png)
+![Full page screenshot](https://user-images.githubusercontent.com/84477950/230227394-f7649e28-49eb-4e65-8547-0c66bd4dc404.png)
 ```
 ```
 # Features
