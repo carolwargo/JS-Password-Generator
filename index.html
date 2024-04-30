@@ -10,14 +10,19 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1>Password Generator</h1>
-      </header>
+      <header style="text-align: center; display: grid; grid-template-columns: repeat(12, 1fr);">
+        <div style="grid-column: span 3;"></div>
+        <div style="grid-column: span 6;">
+          <h2>PASSWORD GENERATOR</h2>
+        </div>
+        <div style="grid-column: span 3;"></div>
+    </header>
+    
       <div class="card">
         <div class="card-header">
-          <p>Generate a Password</p>
+          <p>Click button to generate a secure password!</p>
         </div>
-        <div class="card-body justify-content-center">
+        <div class="card-body justify-content-center text-align-center">
           <textarea
             readonly
             id="password"

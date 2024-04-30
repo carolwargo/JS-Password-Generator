@@ -1,5 +1,4 @@
-*
-,
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -15,14 +14,19 @@ body,
 
 body {
   font-family: sans-serif;
+
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .wrapper {
   padding-top: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  background-image: url('https://github.com/carolwargo/JS-Password-Generator/blob/main/JS-Password-Generator/images/Hacker.png?raw=true');
-
+  background-color:#EBFAFD;
 }
 
 header {
@@ -33,14 +37,16 @@ header {
 }
 
 .card {
+  text-align: center;
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
   border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 8px 0px;
+  font-size: 14px;
   margin: 0 auto;
   max-width: 400px;
   padding: 10px 20px;
+  color: #0F7E8F;
 }
 
 .card-header::after {
@@ -52,34 +58,33 @@ header {
 }
 
 .card-body {
-  min-height: 100px;
-  padding-bottom: 20px;
+  margin-top: 10px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  margin-bottom: 10px;
 }
+
 
 textarea {
-  max-height: 20px !important;
+  height: 15px !important;
+  border: 2px solid #c0c7cf !important;
 }
 
-.card-footer::after {
-  content: " ";
-  display: block;
-  clear: both;
-}
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: #0F7E8F;
   border-radius: 25px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
   color: hsl(0, 0%, 100%);
- 
   font-size: 12px;
   line-height: 16px;
-  margin: 20px 20px 20px 20px;
   padding: 10px 15px;
-  text-align: center;
+ 
   cursor: pointer;
+  margin-top: 10px; /* Add some top margin to separate from the textarea */
 }
 
 button[disabled] {
@@ -98,15 +103,16 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 85px;
-  font-size: 1.2rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 35px;
+  align-items: center;
+  font-size: 12px;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px solid #0F7E8F;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
