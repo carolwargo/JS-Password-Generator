@@ -32,9 +32,6 @@ To use the Random Password Generator, simply answer the prompts, in the browser.
 ```
 # Authors
 - Carol Wargo  ([@carolwargo](https://github.com/carolwargo))
-# Acknowledgments
-Special thanks to the creators
-
 
 
 
