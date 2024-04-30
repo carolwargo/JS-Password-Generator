@@ -1,4 +1,5 @@
-*,
+*
+,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -17,15 +18,16 @@ body {
 }
 
 .wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: light-gray;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-image: url('https://github.com/carolwargo/JS-Password-Generator/blob/main/JS-Password-Generator/images/Hacker.png?raw=true');
+
 }
 
 header {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   padding-top: 0px;
   color: black;
 }
@@ -35,10 +37,10 @@ header {
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 auto;
-  max-width: 600px;
-  padding: 10px 25px;
+  max-width: 400px;
+  padding: 10px 20px;
 }
 
 .card-header::after {
@@ -51,18 +53,11 @@ header {
 
 .card-body {
   min-height: 100px;
+  padding-bottom: 20px;
 }
 
-.card-footer {
-  text-align: center;
-}
-
-.card-footer::before {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
+textarea {
+  max-height: 20px !important;
 }
 
 .card-footer::after {
@@ -78,11 +73,11 @@ header {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
   color: hsl(0, 0%, 100%);
-  display: inline-block;
-  font-size: 22px;
-  line-height: 22px;
-  margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
+ 
+  font-size: 12px;
+  line-height: 16px;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 15px;
   text-align: center;
   cursor: pointer;
 }
